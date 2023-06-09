@@ -1,0 +1,127 @@
+.openchat_user {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(204, 199, 199);
+}
+.about + h4 {
+  color: rgb(16, 175, 229);
+}
+.about img {
+  width: 20px;
+  height: 20px;
+}
+.about,
+form {
+  display: flex;
+}
+.post {
+  display: flex;
+  gap: 50px;
+}
+.chatpage {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 10px;
+}
+.followers,
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.post > #msg {
+  color: rgb(5, 119, 156);
+  border: none;
+  background-color: lightblue;
+}
+.post + button {
+  border: 2px solid rgb(5, 119, 156);
+  color: rgb(5, 119, 156);
+  padding: 5px;
+  width: 100px;
+}
+form > button img,
+input[type="image"] {
+  width: 40px;
+  height: 40px;
+}
+form > button {
+  border: none;
+}
+.chatpageopen {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: lightblue;
+  padding: 15px;
+  width: 450px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  background-image: linear-gradient(lightblue, white);
+  border: inset;
+  outline: none;
+}
+.chatsinside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+.chat1,
+.chat3 {
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10%;
+}
+.chat1 + div {
+  margin-right: 200px;
+  background-color: white;
+  padding: 10px;
+  border: outset;
+}
+.openchatmain {
+  display: flex;
+  padding: 15px;
+  border: outset;
+  width: 1000px;
+  justify-content: space-between;
+  background-color: white;
+}
+.post > p span {
+  color: black;
+}
+.chatpage p {
+  color: grey;
+}
+@media (max-width: 1110px) {
+  .openchatmain {
+    width: 1120px;
+  }
+}
+@media (max-width: 768px) {
+  .openchatmain {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  }
+  .chatpageopen {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .openchatmain {
+    display: flex;
+    flex-wrap: wrap;
+    width: 460px;
+  }
+}

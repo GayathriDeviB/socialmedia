@@ -1,0 +1,31 @@
+.prof_newscard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.wall_main {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 10px;
+}
+@media (max-width: 1110px) {
+  .wall_main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .wall_main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* .wall_main > .prof_newscard {
+    width: 800px;
+  } */
+}
+@media (max-width: 480px) {
+  .wall_main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,77 @@
+.follow img {
+  width: 30px;
+  height: 10px;
+}
+.name {
+  display: flex;
+}
+.cardsfollowmain img {
+  width: 20px;
+}
+.profile_follow,
+.butn {
+  display: flex;
+  gap: 80px;
+}
+.follow_user {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: lightgrey;
+}
+.follow,
+.cardsfollowmain {
+  display: flex;
+  align-items: center;
+  border: none;
+  width: 350px;
+  gap: 15px;
+  background-color: white;
+  padding: 10px;
+}
+.cards_content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.followmain,
+.followlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.cards_content > .butn button {
+  width: 100px;
+  color: rgb(27, 144, 216);
+  border: 2px solid rgb(17, 150, 233);
+  padding: 5px;
+}
+#butn1 {
+  background-color: rgb(135, 245, 245);
+  border: none;
+}
+.cards_content > h4 {
+  color: rgb(27, 144, 216);
+}
+.profile_follow > h5 {
+  color: gray;
+}
+@media (max-width: 1110px) {
+  .follow,
+  .cardsfollowmain {
+    width: 1080px;
+  }
+}
+@media (max-width: 768px) {
+  .follow,
+  .cardsfollowmain {
+    width: 750px;
+  }
+}
+@media (max-width: 480px) {
+  .follow,
+  .cardsfollowmain {
+    width: 460px;
+  }
+}

@@ -1,0 +1,16 @@
+.chats_main {
+  display: flex;
+}
+@media (max-width: 1110px) {
+  .chats_main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  .chats_main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+  }
+}

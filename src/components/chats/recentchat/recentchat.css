@@ -1,0 +1,67 @@
+.individualchats img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.chats_name {
+  display: flex;
+  gap: 100px;
+  font-size: 20px;
+}
+.individualchats {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+}
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.recentchatslist {
+  display: flex;
+  flex-direction: column;
+}
+.recentchat_main {
+  width: 500px;
+  height: 600px;
+  padding: 10px;
+  background-color: white;
+}
+.topic > h1,
+.chats_name > h3 {
+  color: rgb(4, 145, 233);
+}
+.chats_name > h4 {
+  color: grey;
+  font-size: 16px;
+}
+@media (max-width: 1110px) {
+  .recentchat_main {
+    width: 100%;
+    height: 500px;
+  }
+  .chats_name {
+    gap: 700px;
+  }
+}
+@media (max-width: 768px) {
+  .recentchat_main {
+    width: 750px;
+    height: 520px;
+  }
+  .chats_name {
+    gap: 460px;
+  }
+}
+@media (max-width: 480px) {
+  .recentchat_main {
+    width: 460px;
+    padding: 5px;
+  }
+  .chats_name {
+    gap: 230px;
+    font-size: 15px;
+  }
+  
+}
