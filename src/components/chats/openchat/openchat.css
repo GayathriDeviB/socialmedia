@@ -118,10 +118,4 @@ input[type="text"] {
     width: 100%;
   }
 }
-@media (max-width: 480px) {
-  .openchatmain {
-    display: flex;
-    flex-wrap: wrap;
-    width: 460px;
-  }
-}
+

@@ -2,7 +2,7 @@
   width: 30px;
   height: 10px;
 }
-.name {
+.profile_follow > .name {
   display: flex;
 }
 .cardsfollowmain img {
@@ -62,16 +62,28 @@
   .cardsfollowmain {
     width: 1080px;
   }
+  .profile_follow,
+  .butn {
+    gap: 700px;
+  }
 }
 @media (max-width: 768px) {
   .follow,
   .cardsfollowmain {
     width: 750px;
   }
+  .profile_follow,
+  .butn {
+    gap: 460px;
+  }
 }
 @media (max-width: 480px) {
   .follow,
   .cardsfollowmain {
     width: 460px;
+  }
+  .profile_follow,
+  .butn {
+    gap: 220px;
   }
 }

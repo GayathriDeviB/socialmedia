@@ -56,12 +56,10 @@
 }
 @media (max-width: 480px) {
   .recentchat_main {
-    width: 460px;
-    padding: 5px;
+    width: 500px;
+    height: 650px;
   }
   .chats_name {
-    gap: 230px;
-    font-size: 15px;
+    gap: 100px;
   }
-  
 }

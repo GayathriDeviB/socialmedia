@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./openchat.css";
 import sendicon from "../../../assets/icons/sendicon.png";
 import tickicon from "../../../assets/icons/tickicon.png";
@@ -6,6 +6,7 @@ import happyicon from "../../../assets/icons/happy.png";
 import paperclipicon from "../../../assets/icons/paper-clip.png";
 import microphoneicon from "../../../assets/icons/microphone.png";
 const OpenChat = () => {
+  const [followButton, setFollowButton] = useState(false);
   return (
     <div className="openchatmain">
       <div className="chatpage">
@@ -31,7 +32,13 @@ const OpenChat = () => {
 
           <button id="msg">Message</button>
         </div>
-        <button id="foll">Follow</button>
+        {!followButton ? (
+          <button onClick={() => setFollowButton(true)} id="foll">
+            Follow
+          </button>
+        ) : (
+          <button onClick={() => setFollowButton(false)}>Unfollow</button>
+        )}
       </div>
       <div className="chatpageopen">
         <div className="chatsinside">

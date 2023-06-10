@@ -11,6 +11,6 @@
   .chats_main {
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
+    width: 460px;
   }
 }

@@ -68,6 +68,13 @@
   .heading {
     width: 100%;
   }
+  .views_main,
+  .view1 {
+    gap: 600px;
+  }
+  .news2 > .view2 {
+    gap: 710px;
+  }
 }
 @media (max-width: 768px) {
   .newsmain,
@@ -76,13 +83,26 @@
   .heading {
     width: 100%;
   }
+  .views_main,
+  .view1 {
+    gap: 400px;
+  }
+  .news2 > .view2 {
+    gap: 500px;
+  }
 }
-
 @media (max-width: 480px) {
   .newsmain,
   .news1,
   .news2,
   .heading {
     width: 100%;
+  }
+  .views_main,
+  .view1 {
+    gap: 180px;
+  }
+  .news2 > .view2 {
+    gap: 290px;
   }
 }
